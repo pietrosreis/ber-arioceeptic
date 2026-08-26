@@ -1,0 +1,17 @@
+/*
+  Use the following to include this css file
+  <link rel="stylesheet" href="styles1.css" />
+*/
+body{
+  padding: 25px;
+  background-color: bisque;
+}
+.title {
+	color: #3996c1;
+}
+button {
+    background-color: #3996c1;
+    color:white;           
+    border-color: azure;             
+    cursor: pointer;          
+}
