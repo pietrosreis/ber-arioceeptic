@@ -1,0 +1,39 @@
+/* Centraliza o título e define o fundo */
+body {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+/* Alinha os 3 blocos lado a lado com um espaço seguro entre eles */
+.menu-container {
+  display: flex;
+  justify-content: center; /* Centraliza o menu na tela */
+  gap: 40px;               /* ESPAÇO ENTRE OS BOTÕES (mude o número para afastar mais ou menos) */
+  margin-top: 30px;
+}
+
+/* Organiza a imagem para ficar exatamente ACIMA do seu botão */
+.menu-item {
+  display: flex;
+  flex-direction: column;  /* Força a imagem a ficar em cima e o botão embaixo */
+  align-items: center;     /* Centraliza a imagem com o botão */
+  text-decoration: none;   /* Remove sublinhados do link */
+  gap: 10px;               /* Espaço entre a imagem e o botão do mesmo bloco */
+}
+
+/* Controla o tamanho das imagens para não quebrarem o layout */
+.menu-item img {
+  width: 60px;             /* Ajuste o tamanho padrão das imagens aqui */
+  height: auto;
+}
+
+/* Estilização padrão dos botões */
+input[type="button"] {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
